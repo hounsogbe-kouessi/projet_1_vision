@@ -1,0 +1,122 @@
+/* --- Styles Généraux --- */
+body {
+    font-family: 'Inter', sans-serif; /* Texte courant */
+    color: #334155;                  /* Couleur du texte imposée */
+    background-color: #F8FAFC;        /* Couleur de fond imposée */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif; /* Titres */
+    color: #0F172A;                     /* Couleur principale imposée */
+}
+
+/* --- Barre de navigation --- */
+.barre-navigation {
+    background-color: #0F172A;
+    padding: 20px;
+    text-align: center; /* Aligne le contenu au centre */
+}
+
+.barre-navigation .logo {
+    color: #22C55E; /* Couleur secondaire imposée */
+    margin: 0 0 10px 0;
+}
+
+.barre-navigation a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* --- Section d'accueil --- */
+.accueil {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.accueil h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.accueil p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 30px auto; /* Centre le bloc de texte */
+}
+
+/* --- Boutons --- */
+.bouton-orange {
+    background-color: #F97316; /* Couleur d'accentuation imposée */
+    color: #FFFFFF;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* --- Section Services --- */
+.section-services {
+    padding: 40px 20px;
+}
+
+.titre-section {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.carte-service {
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px; /* Espace entre les cartes */
+    border-radius: 8px;
+    border: 1px solid #E2E8F0;
+}
+
+/* --- Section Contact --- */
+.section-contact {
+    background-color: #FFFFFF;
+    padding: 40px 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto; /* Centre le formulaire sur la page */
+}
+
+.champ-formulaire {
+    margin-bottom: 15px;
+}
+
+.champ-formulaire label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.champ-formulaire input, 
+.champ-formulaire textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CBD5E1;
+    border-radius: 5px;
+    box-sizing: border-box; /* Évite que le champ dépasse de l'écran */
+}
+
+/* --- Pied de page --- */
+.pied-de-page {
+    background-color: #0F172A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
